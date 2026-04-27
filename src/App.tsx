@@ -25,7 +25,7 @@ function App() {
         <nav className="c-menu">
           <Link to = "/">home</Link>
           <Link to = "/favoritos">favoritos</Link>
-          <Link to = "/original">Original</Link>
+          <Link to = "/original">Comparador</Link>
           <Link to = "/informativa">Informativa</Link>
           <Link to = "/usuarios">Usuarios</Link>
         </nav>

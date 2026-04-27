@@ -1,0 +1,36 @@
+.comparador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.anime {
+    width: 250px;
+    text-align: center;
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.vs {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.ganador {
+    color: gold;
+    font-weight: bold;
+}
+
+.limpiar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

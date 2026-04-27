@@ -1,0 +1,60 @@
+
+.anime-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.Carta {
+    flex: 1;
+    min-width: 300px; 
+    max-width: 300px;
+}
+
+.Carta img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.Carta button {
+    width: 100%;
+    height: 6%;
+    margin-top: 4px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Titulo {
+    width: 100%; 
+}
+
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 300px; 
+    gap: 15px;
+}
+
+
+.Trailer {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 560px;
+    border: 1px solid #ccc;
+}
+
+.Score {
+    background-color: #f0d670;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    align-self: flex-start;
+}
