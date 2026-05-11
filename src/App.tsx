@@ -3,10 +3,12 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router'
 import Informativa from './informativa'
 import Usuarios from './usuarios'
 import Home from './home'
+import Registro from './registro'
 import Favoritos from './favoritos'
 import Original from './original'
 import './App.css'
 import Anime from './anime'
+
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
           <Route path='/informativa' element={<Informativa/>} />
           <Route path='/usuarios' element={<Usuarios/>} />
           <Route path='/anime/:mal_id' element={<Anime/>} />
+          <Route path='/registro' element={<Registro/>} />
         </Routes>
 
         <nav className="c-menu">
@@ -28,6 +31,7 @@ function App() {
           <Link to = "/original">Comparador</Link>
           <Link to = "/informativa">Informativa</Link>
           <Link to = "/usuarios">Usuarios</Link>
+          <Link to = "/registro">Registro</Link>
         </nav>
       </Router>
     </>
