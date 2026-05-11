@@ -31,7 +31,7 @@ function App() {
           <Link to = "/original">Comparador</Link>
           <Link to = "/informativa">Informativa</Link>
           <Link to = "/usuarios">Usuarios</Link>
-          <Link to = "/registro">Registro</Link>
+          
         </nav>
       </Router>
     </>

@@ -32,11 +32,11 @@ const handleRegistro = async () => {
     return (
         <>
             <h3>Nombre</h3>
-            <input type="text" onChange={}/>
+            <input type="text" value={nombre} onChange={(e) => setNombre(e.target.value)}/>
             <h3>Email</h3>
-            <input type="email"/>
+            <input type="email" value={correo} onChange={(e) => setCorreo(e.target.value)}/>
             <h3>Contraseña</h3>
-            <input type="password"/>
+            <input type="password" value={contrasena} onChange={(e) => setContrasena(e.target.value)}/>
             <br />
             <Link to="/"><button onClick={handleRegistro}>registrarse</button></Link>
         </>
